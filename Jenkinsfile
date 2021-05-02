@@ -7,7 +7,7 @@ pipeline {
     }
     stage('git clone') {
       steps {
-        git clone "ssh://git@mywebsite.com/myrepo.git"
+        git clone "https://github.com/KoteManju/Sample_Project.git"
       }
     }
   }
